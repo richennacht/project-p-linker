@@ -1,0 +1,5 @@
+# Replace the placeholder handles after all four GitHub usernames are known.
+/schemas/ @richennacht
+/frontend/ @richennacht
+/.github/ @richennacht
+
