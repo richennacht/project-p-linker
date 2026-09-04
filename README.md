@@ -12,6 +12,13 @@ npm ci
 npm run dev
 ```
 
+## Deployment
+
+- GitHub Actions checks every task branch, `integration`, and `main`.
+- Vercel preview deployments are created for pull requests after the repository is connected.
+- Vercel production deploys from `main`.
+- Protein prediction and other long-running calculations remain on the college cloud, not Vercel.
+
 ## Branches
 
 - `main`: reviewed, publishable version
