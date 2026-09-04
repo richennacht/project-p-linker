@@ -8,17 +8,17 @@ const stages = [
 ]
 
 const runs = [
-  { id: 'PL-0007', pair: 'Example A + Example B', method: 'P-Linker', status: 'Example result', score: '84%' },
-  { id: 'PL-0006', pair: 'Example C + Example D', method: 'Fixed linker', status: 'Example result', score: '61%' },
+  { id: 'LF-0007', pair: 'Example A + Example B', method: 'LinkerForge', status: 'Example result', score: '84%' },
+  { id: 'LF-0006', pair: 'Example C + Example D', method: 'Fixed linker', status: 'Example result', score: '61%' },
 ]
 
 function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Project P-Linker home">
-          <span className="brand-mark">P</span>
-          <span>Project P-Linker</span>
+        <a className="brand" href="#top" aria-label="LinkerForge home">
+          <span className="brand-mark">LF</span>
+          <span>LinkerForge</span>
         </a>
         <nav aria-label="Main navigation">
           <a href="#workflow">Workflow</a>
@@ -32,7 +32,7 @@ function App() {
         <section className="hero">
           <div className="eyebrow"><CircleDot size={14} /> Computational research workspace</div>
           <h1>Design protein connections that can be inspected, repeated, and challenged.</h1>
-          <p className="hero-copy">P-Linker recommends how two existing protein domains might be connected, predicts the resulting structure, and records the evidence behind every result.</p>
+          <p className="hero-copy">LinkerForge recommends how two existing protein domains might be connected, predicts the resulting structure, and records the evidence behind every result.</p>
           <div className="hero-actions">
             <button type="button" disabled title="Enabled when the scientific service is connected">Start a design <ArrowRight size={17} /></button>
             <a href="#workflow">See how it works</a>
@@ -43,7 +43,7 @@ function App() {
         <section className="metrics" aria-label="Project status">
           <article><span>System state</span><strong>Frontend ready</strong><small>Scientific service not connected</small></article>
           <article><span>Primary measure</span><strong>Valid fusion rate</strong><small>Predicted structural plausibility</small></article>
-          <article><span>Compared methods</span><strong>4</strong><small>Random, fixed, geometry, P-Linker</small></article>
+          <article><span>Compared methods</span><strong>4</strong><small>Random, fixed, geometry, LinkerForge</small></article>
           <article><span>Traceability</span><strong>Required</strong><small>Inputs, code, model and settings</small></article>
         </section>
 
@@ -76,10 +76,9 @@ function App() {
         </section>
       </main>
 
-      <footer><strong>Project P-Linker</strong><span>Encoding-guided design of structurally plausible fusion proteins</span><span>Computational predictions require future experimental validation.</span></footer>
+      <footer><strong>LinkerForge</strong><span>Encoding-guided design of structurally plausible fusion proteins</span><span>Computational predictions require future experimental validation.</span></footer>
     </div>
   )
 }
 
 export default App
-

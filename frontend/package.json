@@ -1,5 +1,5 @@
 {
-  "name": "project-p-linker-frontend",
+  "name": "linkerforge-frontend",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -33,4 +33,3 @@
     "vitest": "latest"
   }
 }
-

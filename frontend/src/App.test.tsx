@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
 import App from './App'
 
-describe('Project P-Linker interface', () => {
+describe('LinkerForge interface', () => {
   it('states the scientific limitation', () => {
     render(<App />)
     expect(screen.getByText(/makes no claim of biological function/i)).toBeInTheDocument()
@@ -14,4 +14,3 @@ describe('Project P-Linker interface', () => {
     expect(screen.getByText('Predict and compare')).toBeInTheDocument()
   })
 })
-

@@ -1,6 +1,6 @@
-# Project P-Linker
+# LinkerForge
 
-Project P-Linker is a computational research prototype for recommending and evaluating structurally plausible connections between two existing protein domains.
+LinkerForge is a computational research prototype for recommending and evaluating structurally plausible connections between two existing protein domains.
 
 The first release is a React demonstration interface. Scientific calculations are represented by clearly labelled example data until the Python pipeline and college cloud runner are connected.
 
